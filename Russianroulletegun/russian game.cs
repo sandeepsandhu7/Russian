@@ -51,7 +51,7 @@ namespace Russianroulletegun
             gigimg.Image = bmpObj;
 
             //coding for sounds//
-            System.Media.SoundPlayer sndObj = new System.Media.SoundPlayer(Russianroulletegun.Properties.Resources.spinSound);
+            System.Media.SoundPlayer sndObj = new System.Media.SoundPlayer(Russianroulletegun.Properties.Resources.spin1);
             sndObj.Play();
 
 
@@ -131,6 +131,10 @@ namespace Russianroulletegun
                 }
             }
 
+        private void Gigimg_Click(object sender, EventArgs e)
+        {
+
         }
+    }
     }
 

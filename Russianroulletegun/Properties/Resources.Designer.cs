@@ -121,6 +121,15 @@ namespace Russianroulletegun.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        public static System.IO.UnmanagedMemoryStream spin1 {
+            get {
+                return ResourceManager.GetStream("spin1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         public static System.IO.UnmanagedMemoryStream spinSound {
             get {
                 return ResourceManager.GetStream("spinSound", resourceCulture);

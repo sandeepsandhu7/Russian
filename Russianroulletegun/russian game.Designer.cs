@@ -57,6 +57,7 @@
             this.gigimg.Size = new System.Drawing.Size(321, 203);
             this.gigimg.TabIndex = 1;
             this.gigimg.TabStop = false;
+            this.gigimg.Click += new System.EventHandler(this.Gigimg_Click);
             // 
             // loadbutt
             // 
